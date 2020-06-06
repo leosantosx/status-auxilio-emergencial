@@ -2,8 +2,8 @@ import requests
 import json
 from time import sleep
       
-cpf = 00000000000 #COLOQUE SEU CPF AQUI
-token = 000000 #COLOQUE O CODIGO DO SMS AQUI
+cpf = 12345678910 #COLOQUE SEU CPF AQUI
+token = 123456 #COLOQUE O CODIGO DO SMS AQUI
 
 url = "https://auxilio.caixa.gov.br/api/sms/validarLogin"
 headers = {
